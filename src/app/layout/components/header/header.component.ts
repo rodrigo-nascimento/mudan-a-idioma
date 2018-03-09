@@ -46,5 +46,11 @@ export class HeaderComponent implements OnInit {
         localStorage.removeItem('token');
     }
 
-
+    changeLang(language: string) {
+        this.translate.use(language);
+    }
+    rltAndLtr() {
+        const dom: any = document.querySelector('body');
+        dom.classList.toggle('rtl');
+    }
 }
