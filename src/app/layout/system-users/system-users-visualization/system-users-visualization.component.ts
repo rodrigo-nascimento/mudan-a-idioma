@@ -8,6 +8,8 @@ import { SystemUsers } from '../../../shared/models/system-users.model';
 import { UsersDocuments } from '../../../shared/models/system-users-documents';
 import { UsersAddress } from '../../../shared/models/system-users-address';
 import { UsersPhone } from '../../../shared/models/system-users-phone';
+import { TranslateService } from '@ngx-translate/core';
+
 
 @Component({
   selector: 'app-system-users-visualization',
@@ -23,6 +25,7 @@ export class SystemUsersVisualizationComponent implements OnInit {
   public formVisualization;
 
   constructor(
+    private translate: TranslateService,
     public route: ActivatedRoute,
     private router: Router,
     private systemUsersService: SystemUsersService
@@ -126,4 +129,7 @@ export class SystemUsersVisualizationComponent implements OnInit {
   }
 
 
+  changeLang(language: string) {
+    this.translate.use(language);
+}
 }

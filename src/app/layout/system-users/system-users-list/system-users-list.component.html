@@ -5,8 +5,8 @@
 
             <div class="col-md-6">
                 <select class="custom-select" #selectSearch>
-                    <option disabled selected value> buscar por.. </option>
-                    <option value="name"> nome </option> 
+                    <option disabled selected value> {{ 'buscar por..' | translate }} </option>
+                    <option value="name"> {{ 'nome' | translate }} </option> 
                     <option value="cpf"> cpf </option>
                     <option value="rg"> rg </option>
                 </select>
@@ -18,7 +18,7 @@
 
             <div class="col-md-2">
                 <button class="btn btn-primary" type="submit" (click)="search(selectSearch.value, inputSearch.value)">
-                    Buscar
+                    {{ 'Buscar' | translate }}
                 </button>
             </div>
 
@@ -28,11 +28,11 @@
     <table class="table-hover">
         <thead>
             <tr>
-                <th id="primeiro-th"> Nome Completo </th>
+                <th id="primeiro-th"> {{ 'Nome Completo' | translate }] </th>
                 <th> E-mail </th>
                 <th> CPF </th>
                 <th> Status </th>
-                <th id="ultimo-th"> Ações </th>
+                <th id="ultimo-th"> {{ 'Ações' | translate }} </th>
             </tr>
         </thead>
         <tbody>
@@ -98,14 +98,14 @@
 
                     <ng-template #content let-c="close">
                         <div class="modal-header">
-                            <h2 class="modal-title">Excluir</h2>
+                            <h2 class="modal-title">{{ 'Excluir' | translate }}</h2>
                         </div>
                         <div class="modal-body">
-                            <h5 class="modal-title">Deseja excluir o cadastro do usuário definitivamente?</h5>
+                            <h5 class="modal-title">{{ 'Deseja excluir o cadastro do usuário definitivamente?' | translate }}</h5>
                         </div>
                         <div class="modal-footer">
-                            <button id="confirmar" type="button" class="btn btn-secondary" title="Confirmar Ação" (click)="c('Close click')" (click)="deleteUser(user)">Confirmar</button>
-                            <button id="cancelar" type="button" class="btn btn-secondary" title="Cancelar Ação" (click)="c('Close click')">Cancelar</button>
+                            <button id="confirmar" type="button" class="btn btn-secondary" title="Confirmar Ação" (click)="c('Close click')" (click)="deleteUser(user)">{{ 'Confirmar' | translate }}</button>
+                            <button id="cancelar" type="button" class="btn btn-secondary" title="Cancelar Ação" (click)="c('Close click')">{{ 'Cancelar' | translate }}</button>
                         </div>
                     </ng-template>
                 </td>
@@ -149,9 +149,9 @@
                                 <option value="15"> 15 </option>
                                 <option value="20"> 20 </option>
                                 <option value="25"> 25 </option>
-                                <option value="0"> todos </option>
+                                <option value="0"> {{ 'todos' | translate }} </option>
                             </select>
-                            <label style="margin-left:5px;">Registros</label>
+                            <label style="margin-left:5px;">{{ 'Registros' | translate }}</label>
                         </div>
                     </form>
                 </div>

@@ -24,5 +24,89 @@
     "Caixa de Entrada" : "Inbox",
     "Encerrar Sessão" : "Log Out",
     "Usuários do Sistema": "System Users",
-    "Transporte Universitário": "University Transportation"
+    "Transporte Universitário": "University Transportation",
+
+     //Signup
+
+    "Faça seu cadastro": "Make your registration",
+    "Usuário já existe em nosso Cadastro!": "User already exists in our Register!",
+    "Cadastrar": "Register",
+    "Retornar": "Turn back",
+    "Erro ao registrar": "Error registering",
+    "Informações inválidas, CPF ou E-MAIL já cadastrados no sistema!":"Invalid information, CPF or E-MAIL already registered in the system!",
+    "Seus dados não serão compartilhados com outros sites e só serão divulgados e utilizados, quando for necessário, para a realização dos nossos serviços.": "Your data will not be shared with other sites and will only be disclosed and used, when necessary, for the realization of our services",
+
+     //System-user-edit
+
+    "EDITAR USUÁRIO": "EDIT USER",
+    "Nome Completo": "Full Name",
+    "Nome válido": "Invalid name",
+    "Nome inválido - Favor informar nome, sobrenome e não utilizar números ou caracteres especiais!": "Invalid name - Please enter name, surname and do not use numbers or characters special!",
+    "CPF válido": "Valid CPF",
+    "CPF inválido - Favor informar CPF, e não utilizar letras ou caracteres especiais!": "Invalid CPF - Please inform CPF, and do not use letters or special characters!",
+    "E-mail válido": "Invalid E-mail",
+    "E-mail inválido - Favor informar o e-mail!": "Invalid email address - Please enter the e-mail address!",
+    "Escolha um tipo para cadastrar": "Choose a type to register",
+    "RESIDENCIAL": "RESIDENTIAL",
+    "COMERCIAL": "COMMERCIAL",
+    "Cep:": "Zip code:",
+    "Logradouro:": "Street adress:",
+    "Logradouro válido": "Official street address",
+    "Logradouro Inválido - Por favor informar o logradouro, e não utilizar numeros ou caracteres especiais!": "Invalid Street Address - Please inform the street, and do not use numbers or special characters!",
+    "Número válido": "Valid number",
+    "Número Inválido": "Invalid number",
+    "Bairro:": "Neighborhood",
+    "Bairro válido": "Invalid neighborhood",
+    "Bairro Inválido - Por favor informar o bairro, e não utilizar numeros ou caracteres especiais!": "Invalid Neighborhood - Please inform the neighborhood, and do not use numbers or special characters!",
+    "Complemento:": "Complement:",
+    "Cidade:": "City:",
+    "Estado:": "State:",
+    "Escolha um tipo": "Choose a type",
+    "CELULAR": "CELL PHONE",
+    "FIXO-RECADO": "LANDLINE - SCRAPS",
+    "CELULAR-RECADO": "CELL PHONE - SCRAPS",
+    "Adicionar": "Add",
+
+    //System-users-home
+
+    "Administração de Usuários do Sistema": "System User Administration",
+    "Cadastro de Usuário": "User registration",
+    "Cadastre um novo usuário": "Register a new user",
+    "Listagem de Usuário": "User Listing",
+    "Lista de usuários no sistema": "List of users in the system",
+    "Listagem": "Listing",
+    
+    //System-user-list
+
+    "buscar por..": "search for ..",
+    "nome": "name",
+    "Buscar": "Search",
+    "Ações": "Actions",
+    "Excluir": "Delete",
+    "Deseja excluir o cadastro do usuário definitivamente?": "Do you want to permanently delete the user's registration?",
+    "Confirmar": "Confirm",
+    "Cancelar": "Cancel",
+    "Exibir": "Show",
+    "todos": "all",
+    "Registros": "Registers",
+
+    //System-user-new
+
+    "CADASTRO NOVO USUÁRIO":"NEW USER REGISTRATION",
+    "Dados Pessoais":"Personal data",
+    "Endereços": "Adresses",
+    "Contatos": "Contacts",
+    "Permissões": "permissions",
+    "Número:": "Number",
+    "Anterior": "Previous",
+    "Proximo": "Next",
+    "Editar": "Edit",
+    "Visualizar": "Show",
+
+    //System-user-visualization
+
+    "Situação:": "Situation:",
+    "Tipo:": "Type:"
+
+
 }

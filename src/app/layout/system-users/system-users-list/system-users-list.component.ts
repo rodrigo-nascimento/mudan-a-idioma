@@ -7,6 +7,7 @@ import { routerTransition } from '../../../router.animations';
 import { Alert } from 'selenium-webdriver';
 import { Title } from '@angular/platform-browser/src/browser/title';
 import { Message } from '@angular/compiler/src/i18n/i18n_ast';
+import { TranslateService } from '@ngx-translate/core';
 
 
 @Component({
@@ -37,6 +38,7 @@ export class SystemUsersListComponent implements OnInit {
     public route: ActivatedRoute,
     private modalService: NgbModal,
     private systemUsersService: SystemUsersService,
+    private translate: TranslateService,
 
   ) { }
 
@@ -244,5 +246,7 @@ export class SystemUsersListComponent implements OnInit {
       });
 
   }
-
+  changeLang(language: string) {
+    this.translate.use(language);
+}
 }

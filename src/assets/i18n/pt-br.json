@@ -18,10 +18,92 @@
     "Espanhol": "Espanhol",
     "Italiano": "Italiano",
     "Farsi": "Farsi",
-    "Busca" : "Busca",
-    "Configurações" : "Configurações",
-    "Perfil" : "Prefil",
-    "Caixa de Entrada" : "Caixa de Entrada",
-    "Encerrar Sessão" : "Encerrar Sessão",
-    "Usuários do Sistema": "Usuários do Sistema"
+    "Busca": "Busca",
+    "Configurações": "Configurações",
+    "Perfil": "Prefil",
+    "Caixa de Entrada": "Caixa de Entrada",
+    "Encerrar Sessão": "Encerrar Sessão",
+    "Usuários do Sistema": "Usuários do Sistema",
+    "Transporte Universitário": "Transporte Universitário",
+
+    //Signup
+
+    "Faça seu cadastro": "Faça seu cadastro",
+    "Usuário já existe em nosso Cadastro!": "Usuário já existe em nosso Cadastro!",
+    "Cadastrar": "Cadastrar",
+    "Retornar": "Retornar",
+    "Erro ao registrar": "Erro ao registrar",
+    "Informações inválidas, CPF ou E-MAIL já cadastrados no sistema!": "Informações inválidas, CPF ou E-MAIL já cadastrados no sistema!",
+    "Seus dados não serão compartilhados com outros sites e só serão divulgados e utilizados, quando for necessário, para a realização dos nossos serviços.": "Seus dados não serão compartilhados com outros sites e só serão divulgados e utilizados, quando for necessário, para a realização dos nossos serviços.",
+    
+    //System-user-edit
+
+    "EDITAR USUÁRIO": "EDITAR USUÁRIO",
+    "Nome Completo": "Nome Completo",
+    "Nome válido": "Nome válido",
+    "Nome inválido - Favor informar nome, sobrenome e não utilizar números ou caracteres especiais!": "Nome inválido - Favor informar nome, sobrenome e não utilizar números ou caracteres especiais!",
+    "CPF válido": "CPF válido",
+    "CPF inválido - Favor informar CPF, e não utilizar letras ou caracteres especiais!": "CPF inválido - Favor informar CPF, e não utilizar letras ou caracteres especiais!",
+    "E-mail válido": "E-mail válido",
+    "E-mail inválido - Favor informar o e-mail!": "E-mail inválido - Favor informar o e-mail!",
+    "Escolha um tipo para cadastrar": "Escolha um tipo para cadastrar",
+    "RESIDENCIAL": "RESIDENCIAL",
+    "COMERCIAL": "COMERCIAL",
+    "Cep:": "Cep:",
+    "Logradouro:": "Logradouro:",
+    "Logradouro válido": "Logradouro válido",
+    "Logradouro Inválido - Por favor informar o logradouro, e não utilizar numeros ou caracteres especiais!": "Logradouro Inválido - Por favor informar o logradouro, e não utilizar numeros ou caracteres especiais!",
+    "Número válido": "Número válido",
+    "Número Inválido": "Número Inválido",
+    "Bairro:": "Bairro:",
+    "Bairro válido": "Bairro válido",
+    "Bairro Inválido - Por favor informar o bairro, e não utilizar numeros ou caracteres especiais!": "Invalid Neighborhood - Please inform the neighborhood, and do not use numbers or special characters!",
+    "Complemento:": "Complemento:",
+    "Cidade:": "Cidade:",
+    "Estado:": "Estado:",
+    "Escolha um tipo": "Escolha um tipo",
+    "CELULAR": "CELULAR",
+    "FIXO-RECADO": "FIXO-RECADO",
+    "CELULAR-RECADO": "CELULAR-RECADO",
+    "Adicionar": "Adicionar",
+    
+    //System-users-home
+
+    "Administração de Usuários do Sistema": "Administração de Usuários do Sistema",
+    "Cadastro de Usuário": "Cadastro de Usuário",
+    "Cadastre um novo usuário": "Cadastre um novo usuário",
+    "Listagem de Usuário": "Listagem de Usuário",
+    "Lista de usuários no sistema": "Lista de usuários no sistema",
+    "Listagem": "Listagem",
+   
+    //System-user-list
+
+    "buscar por..": "buscar por..",
+    "nome": "nome",
+    "Buscar": "Buscar",
+    "Ações": "Ações",
+    "Excluir": "Excluir",
+    "Deseja excluir o cadastro do usuário definitivamente?": "Deseja excluir o cadastro do usuário definitivamente?",
+    "Confirmar": "Confirmar",
+    "Cancelar": "Cancelar",
+    "Exibir": "Exibir",
+    "todos": "todos",
+    "Registros": "Registros",
+   
+    //System-user-new
+
+    "CADASTRO NOVO USUÁRIO": "CADASTRO NOVO USUÁRIO",
+    "Dados Pessoais": "Dados Pessoais",
+    "Endereços": "Endereços",
+    "Contatos": "Contatos",
+    "Permissões": "Permissões",
+    "Número:": "Número:",
+    "Anterior": "Anterior",
+    "Proximo": "Proximo",
+    "Editar": "Editar",
+    "Visualizar": "Visualizar",
+   
+    //System-user-visualization
+    "Situação:": "Situação:",
+    "Tipo:": "Tipo:"
 }
